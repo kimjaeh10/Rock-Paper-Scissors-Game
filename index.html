@@ -20,9 +20,14 @@
         <p>Rock Paper Scissors Game</p>
     </div>
 
+    <hr />
+
+    <p id="action-message">Make your move</p>
+
     <div class="choices">
+        <p>Player</p>
         <div class="choice" id="r">
-            <img src="images/rock.png" alt="" style="width: 100px;"/>
+            <img src="images/rock.png" alt="" style="width: 100px;" />
         </div>
         <div class="choice" id="p">
             <img src="images/paper.png" alt="" style="width: 100px;" />
@@ -32,7 +37,20 @@
         </div>
     </div>
 
-    <p id="action-message">Make your move</p>
+    <div class="vs">
+        <p>V.S.</p>
+    </div>
+
+    <div class="computer">
+        <p>Computer</p>
+        <div class="choice" id="question-mark">
+            <img src="images/questionmark.png" alt="" style="width: 100px;" />
+        </div>
+    </div>
+    
+    <div class="buttons">
+        <button type="button" id="reset-button" onclick="myFunction()">RESET SCOREBOARD</button>
+    </div>
 
     <script src="js/app.js" charset="utf-8"></script>
 </body>
